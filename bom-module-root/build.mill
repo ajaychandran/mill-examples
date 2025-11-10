@@ -3,7 +3,7 @@ package build
 import mill.*
 import mill.javalib.*
 
-object `package` extends BomModule {
+object foo extends BomModule {
   def bomMvnDeps = Seq(
     mvn"com.google.protobuf:protobuf-bom:4.28.1"
   )
